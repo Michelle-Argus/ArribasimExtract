@@ -215,16 +215,14 @@
     ; meshing = ZeroMesher
 
     ;; Choose one of the physics engines below
-    ;# {physics} {} {Select physics engine} {OpenDynamicsEngine BulletSim basicphysics POS} BulletSim
+    ;# {physics} {} {Select physics engine} {OpenDynamicsEngine BulletSim POS} BulletSim
     ;; BulletSim is the default physics engine.  It provides the best performance and most functionality.
     ;; BulletSim supports varregions.
     ;; OpenDynamicsEngine was the previous default physics engine in OpenSimulator 0.7.6.1 and before.  
     ;; It continues to provide a workable physics implementation.  It does not currently support varregions.
-    ;; basicphysics effectively does not model physics at all, making all objects phantom.   
     ;; Default is BulletSim
     ; physics = OpenDynamicsEngine
     ; physics = BulletSim
-    ; physics = basicphysics
     ; physics = POS
 
     ;# {DefaultScriptEngine} {} {Default script engine} {XEngine} XEngine

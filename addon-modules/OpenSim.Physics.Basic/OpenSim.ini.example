@@ -1,0 +1,4 @@
+[Startup]
+
+    ;; basicphysics effectively does not model physics at all, making all objects phantom.   
+    ; physics = basicphysics
