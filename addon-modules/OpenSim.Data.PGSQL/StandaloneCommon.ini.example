@@ -1,0 +1,10 @@
+[DatabaseService]
+    ;
+    ; ### Choose the DB
+    ;
+
+    ; PGSQL
+    ; Uncomment these lines if you want to use PGSQL storage
+    ; Change the connection string to your db details
+    ;StorageProvider = "OpenSim.Data.PGSQL.dll"
+    ;ConnectionString = "Server=localhost;Database=opensim;User Id=opensim; password=***;"
