@@ -639,67 +639,6 @@
     ; use_NINJA_physics_joints = false
 
 
-[RemoteAdmin]
-    ;; This is the remote admin module, which uses XMLRPC requests to
-    ;; manage regions from a web interface.
-
-    ;# {enabled} {} {Enable the remote admin interface?} {true false} false
-    ; enabled = false
-
-    ;# {port} {enabled:true} {Port to use for the remote admin interface? (0 = default)} {} 0
-    ;; Set this to a nonzero value to have remote admin use a different port
-    ; port = 0
-
-    ;# {access_password} {enabled:true} {Password for the remote admin interface} {}
-    ;; This password is required to make any XMLRPC call (should be set as
-    ;; the "password" parameter)
-    ; access_password = ""
-
-    ;# {access_ip_addresses} {enabled:true} {List the IP addresses allowed to call RemoteAdmin?} {}
-    ;; List the IP addresses allowed to call RemoteAdmin
-    ;; If access_ip_addresses isn't set, then all IP addresses can access RemoteAdmin.
-    ;; access_ip_addresses = 0.0.0.0, 0.0.0.0 ...
-    ; access_ip_addresses =
-
-    ;# {create_region_enable_voice} {enabled:true} {Enable voice for newly created regions?} {true false} false
-    ;; set this variable to true if you want the create_region XmlRpc
-    ;; call to unconditionally enable voice on all parcels for a newly
-    ;; created region
-    ; create_region_enable_voice = false
-
-    ;# {create_region_public} {enabled:true} {Make newly created regions public?} {true false} false
-    ;; set this variable to false if you want the create_region XmlRpc
-    ;; call to create all regions as private per default (can be
-    ;; overridden in the XmlRpc call)
-    ; create_region_public = false
-
-    ;# {enabled_methods} {enabled:true} {List of methods to allow, separated by |} {} all
-    ;; enable only those methods you deem to be appropriate using a | delimited
-    ;; whitelist.
-    ;; For example:
-    ;; enabled_methods = admin_broadcast|admin_save_oar|admin_save_xml
-    ;; if this parameter is not specified but enabled = true, all methods
-    ;; will be available
-    ; enabled_methods = all
-
-    ;; specify the default appearance for an avatar created through the remote
-    ;; admin interface
-    ;; This will only take effect is the file specified by the
-    ;; default_appearance setting below exists
-    ; default_male = Default Male
-    ; default_female = Default Female
-
-    ;; Update appearance copies inventory items and wearables of default
-    ;; avatars. if this value is false, just worn assets are copied to the
-    ;; Clothes folder; if true, all Clothes and Bodyparts subfolders are copied.
-    ;; The receiver will wear the same items the default avatar did wear.
-    ; copy_folders = false
-
-    ;; Path to default appearance XML file that specifies the look of the
-    ;; default avatars
-    ; default_appearance = default_appearance.xml
-
-
 [Wind]
     ;# {enabled} {} {Enable wind module?} {true false} true
     ;; Enables the wind module.

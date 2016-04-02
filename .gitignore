@@ -15,6 +15,7 @@
 # http://stackoverflow.com/questions/72298/should-i-add-the-visual-studio-suo-and-user-files-to-source-control
 *.suo
 *.user
+.directory
 
 *.VisualState.xml
 */*/obj
@@ -84,7 +85,7 @@ TAGS
 Makefile.local
 bin/.version
 compile.bat
-addon-modules
+#addon-modules
 OpenSim/Data/Tests/test-results/
 OpenSim/Framework/Serialization/Tests/test-results/
 OpenSim/Framework/Servers/Tests/test-results/
