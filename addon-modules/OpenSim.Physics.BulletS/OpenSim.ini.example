@@ -1,0 +1,7 @@
+[Startup]
+
+    ;; Choose one of the physics engines below
+    ;; BulletSim is the default physics engine.  It provides the best performance and most functionality.
+    ;; BulletSim supports varregions.
+    ;; Default is BulletSim
+    ; physics = BulletSim
