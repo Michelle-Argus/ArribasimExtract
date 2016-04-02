@@ -1,0 +1,20 @@
+[Startup]
+
+    ;; Choose one of the physics engines below
+    ;; OpenDynamicsEngine was the previous default physics engine in OpenSimulator 0.7.6.1 and before.  
+    ;; It continues to provide a workable physics implementation.  It does not currently support varregions.
+    ; physics = OpenDynamicsEngine
+
+[ODEPhysicsSettings]
+    ;# {mesh_sculpted_prim} {[Startup]physics:OpenDynamicsEngine} {Mesh sculpties so they collide as they look?} {true false} true
+    ;; Do we want to mesh sculpted prim to collide like they look?
+    ;; If you are seeing sculpt texture decode problems 
+    ;; (messages such as "Decoded image with unhandled number of components: 0 shortly followed by a physcs exception")
+    ;; then you might want to try setting this to false.
+    ; mesh_sculpted_prim = true
+
+    ;# {use_NINJA_physics_joints} {[Startup]physics:OpenDynamicsEngine} {Use jointed (NINJA) physics?} {true false} false
+    ;; If you would like physics joints to be enabled through a special naming
+    ;; convention in the client, set this to true.
+    ;; (see NINJA Physics, http://opensimulator.org/wiki/NINJA_Physics)
+    ; use_NINJA_physics_joints = false
