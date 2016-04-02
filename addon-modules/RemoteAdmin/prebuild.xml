@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-    <Project frameworkVersion="v4_0" name="OpenSim.ApplicationPlugins.RemoteController" path="OpenSim/ApplicationPlugins/RemoteController" type="Library">
+    <Project frameworkVersion="v4_0" name="OpenSim.ApplicationPlugins.RemoteController" path="addon-modules/RemoteAdmin/Module" type="Library">
       <Configuration name="Release">
         <Options>
           <OutputPath>../../../bin/</OutputPath>

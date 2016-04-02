@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-    <Project frameworkVersion="v4_0" name="OpenSim.Data.MSSQL" path="OpenSim/Data/MSSQL" type="Library">
+    <Project frameworkVersion="v4_0" name="OpenSim.Data.MSSQL" path="addon-modules/OpenSim.Data.MSSQL/Module" type="Library">
       <Configuration name="Release">
         <Options>
           <OutputPath>../../../bin/</OutputPath>
