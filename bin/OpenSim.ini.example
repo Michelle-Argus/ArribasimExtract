@@ -87,21 +87,12 @@
     ;; which regions to server
     ;; Default is "filesystem"
     ; region_info_source = "filesystem"
-    ; region_info_source = "web"
     
     ;# {regionload_regionsdir} {region_info_source} {Location of file?} {} Regions
     ;; Determines where the region XML files are stored if you are loading
     ;; these from the filesystem.
     ;; Defaults to bin/Regions in your OpenSimulator installation directory
     ; regionload_regionsdir="C:\somewhere\xmlfiles\"
-
-    ;# {regionload_webserver_url} {region_info_source} {URL to load region from?} {}
-    ;; Determines the page from which regions xml is retrieved if you are
-    ;; loading these from the web.
-    ;; The XML here has the same format as it does on the filesystem
-    ;; (including the <Root> tag), except that everything is also enclosed
-    ;; in a <Regions> tag.
-    ; regionload_webserver_url = "http://example.com/regions.xml";
 
     ;# {allow_regionless} {} {Allow simulator to start up with no regions configured.} {true false} false
     ;; Allow the simulator to start up if there are no region configuration available

@@ -1,0 +1,14 @@
+[Startup]
+
+    ;# {region_info_source} {} {Where to load region from?} {filesystem web} filesystem
+    ;; Determine where OpenSimulator looks for the files which tell it
+    ;; which regions to server
+    ; region_info_source = "web"
+
+    ;# {regionload_webserver_url} {region_info_source} {URL to load region from?} {}
+    ;; Determines the page from which regions xml is retrieved if you are
+    ;; loading these from the web.
+    ;; The XML here has the same format as it does on the filesystem
+    ;; (including the <Root> tag), except that everything is also enclosed
+    ;; in a <Regions> tag.
+    ; regionload_webserver_url = "http://example.com/regions.xml";
