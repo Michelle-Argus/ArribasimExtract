@@ -1,6 +1,4 @@
 <?xml version="1.0" ?>
-    <Project frameworkVersion="v4_0" name="OpenSim.Framework.RegionLoader.Web" path="addon-modules/RegionLoader.Web/Module" type="Library">
-
     <Project frameworkVersion="v4_0" name="OpenSim.Framework.RegionLoader.Filesystem" path="addon-modules/RegionLoader.Filesystem/Module" type="Library">
       <Configuration name="Release">
         <Options>
