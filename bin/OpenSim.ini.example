@@ -82,17 +82,6 @@
     ;; Place to create a PID file
     ; PIDFile = "/tmp/OpenSim.exe.pid"
 
-    ;# {region_info_source} {} {Where to load region from?} {filesystem web} filesystem
-    ;; Determine where OpenSimulator looks for the files which tell it
-    ;; which regions to server
-    ;; Default is "filesystem"
-    ; region_info_source = "filesystem"
-    
-    ;# {regionload_regionsdir} {region_info_source} {Location of file?} {} Regions
-    ;; Determines where the region XML files are stored if you are loading
-    ;; these from the filesystem.
-    ;; Defaults to bin/Regions in your OpenSimulator installation directory
-    ; regionload_regionsdir="C:\somewhere\xmlfiles\"
 
     ;# {allow_regionless} {} {Allow simulator to start up with no regions configured.} {true false} false
     ;; Allow the simulator to start up if there are no region configuration available
