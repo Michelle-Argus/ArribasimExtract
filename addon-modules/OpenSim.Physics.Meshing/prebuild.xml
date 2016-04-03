@@ -2,28 +2,28 @@
     <Project frameworkVersion="v4_0" name="OpenSim.Region.Physics.Meshing" path="addon-modules/OpenSim.Physics.Meshing/Module" type="Library">
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/Physics/</OutputPath>
+          <OutputPath>../../../bin/Physics/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/Physics/</OutputPath>
+          <OutputPath>../../../bin/Physics/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Drawing"/>
-      <Reference name="CSJ2K" path="../../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../../bin/"/>
-      <Reference name="Nini" path="../../../../bin/"/>
+      <Reference name="CSJ2K" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
+      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../bin/"/>
       <Reference name="OpenSim.Framework"/>
       <Reference name="OpenSim.Framework.Console"/>
       <Reference name="OpenSim.Region.Physics.Manager"/>
-      <Reference name="log4net" path="../../../../bin/"/>
-      <Reference name="ThreadedClasses" path="../../../../bin/"/>
+      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="ThreadedClasses" path="../../../bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
