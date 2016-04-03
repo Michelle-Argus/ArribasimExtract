@@ -1595,7 +1595,6 @@
       </Files>
     </Project>
 
-    <!-- Datastore Plugins -->
     <Project frameworkVersion="v4_0" name="OpenSim.Region.Physics.ConvexDecompositionDotNet" path="OpenSim/Region/Physics/ConvexDecompositionDotNet" type="Library">
       <Configuration name="Release">
         <Options>
