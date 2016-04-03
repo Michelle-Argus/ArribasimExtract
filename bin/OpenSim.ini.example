@@ -186,12 +186,10 @@
     ;; Note that only the ODE physics engine currently deals with meshed
     ;; prims in a satisfactory way.
 
-    ;# {meshing} {} {Select mesher} {Meshmerizer ZeroMesher} Meshmerizer
+    ;# {meshing} {} {Select mesher} {Meshmerizer ZeroMesher}
     ;; ZeroMesher is faster but leaves the physics engine to model the mesh
     ;; using the basic shapes that it supports.
     ;; Usually this is only a box.
-    ;; Default is Meshmerizer
-    ; meshing = Meshmerizer
     ; meshing = ZeroMesher
 
     ;; Choose one of the physics engines below
